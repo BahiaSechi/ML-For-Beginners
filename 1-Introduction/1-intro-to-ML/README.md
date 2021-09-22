@@ -4,7 +4,15 @@
 
 > 🎥 Click the image above for a video discussing the difference between machine learning, AI, and deep learning.
 
-## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/1/)
+### Notes
+
+- **Machine learning :** "Portfolio of algorithms" ; Several mathematical functions using data to learn something.
+- **AI :** The application "on top of the machine learning".
+- **Deep learning :** A type of ML based on neural-networks.
+
+:link: [Difference between ML and DL](https://docs.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning#techniques-of-deep-learning-vs-machine-learning)
+
+## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/1/) :white_check_mark:
 
 ### Introduction
 
@@ -96,7 +104,7 @@ In the near future, understanding the basics of machine learning is going to be 
 
 Sketch, on paper or using an online app like [Excalidraw](https://excalidraw.com/), your understanding of the differences between AI, ML, deep learning, and data science. Add some ideas of problems that each of these techniques are good at solving.
 
-## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/2/)
+## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/2/) :white_check_mark:
 
 ## Review & Self Study
 
