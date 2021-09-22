@@ -4,7 +4,7 @@
 
 > Sketchnote by [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
-## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/9/)
+## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/9/) ✅
 
 > ### [This lesson is available in R!](./solution/R/lesson_1-R.ipynb)
 
