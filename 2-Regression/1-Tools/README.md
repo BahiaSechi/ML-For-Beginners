@@ -25,17 +25,28 @@ In this lesson, you will learn how to:
 
 > 🎥 Click the image above for a video: using Python within VS Code.
 
-1. **Install Python**. Ensure that [Python](https://www.python.org/downloads/) is installed on your computer. You will use Python for many data science and machine learning tasks. Most computer systems already include a Python installation. There are useful [Python Coding Packs](https://code.visualstudio.com/learn/educators/installers?WT.mc_id=academic-15963-cxa) available as well, to ease the setup for some users.
+1. **Install Python**. Ensure that [Python](https://www.python.org/downloads/) is installed on your computer. You will use Python for many data science and machine learning tasks. Most computer systems already include a Python installation. There are useful [Python Coding Packs](https://code.visualstudio.com/learn/educators/installers?WT.mc_id=academic-15963-cxa) available as well, to ease the setup for some users. ✅
 
    Some usages of Python, however, require one version of the software, whereas others require a different version. For this reason, it's useful to work within a [virtual environment](https://docs.python.org/3/library/venv.html).
 
-2. **Install Visual Studio Code**. Make sure you have Visual Studio Code installed on your computer. Follow these instructions to [install Visual Studio Code](https://code.visualstudio.com/) for the basic installation. You are going to use Python in Visual Studio Code in this course, so you might want to brush up on how to [configure Visual Studio Code](https://docs.microsoft.com/learn/modules/python-install-vscode?WT.mc_id=academic-15963-cxa) for Python development.
+2. **Install Visual Studio Code**. Make sure you have Visual Studio Code installed on your computer. Follow these instructions to [install Visual Studio Code](https://code.visualstudio.com/) for the basic installation. You are going to use Python in Visual Studio Code in this course, so you might want to brush up on how to [configure Visual Studio Code](https://docs.microsoft.com/learn/modules/python-install-vscode?WT.mc_id=academic-15963-cxa) for Python development. :check:
 
    > Get comfortable with Python by working through this collection of [Learn modules](https://docs.microsoft.com/users/jenlooper-2911/collections/mp1pagggd5qrq7?WT.mc_id=academic-15963-cxa)
 
 3. **Install Scikit-learn**, by following [these instructions](https://scikit-learn.org/stable/install.html). Since you need to ensure that you use Python 3, it's recommended that you use a virtual environment. Note, if you are installing this library on a M1 Mac, there are special instructions on the page linked above.
 
-1. **Install Jupyter Notebook**. You will need to [install the Jupyter package](https://pypi.org/project/jupyter/).
+```
+$ virtualenv -p /usr/bin/python3 ml-env
+$ source ml-env/bin/activate
+$ pip3 install -U scikit-learn
+$ python3 -m pip show scikit-learn
+```
+
+4. **Install Jupyter Notebook**. You will need to [install the Jupyter package](https://pypi.org/project/jupyter/).
+
+```
+$ pip install jupyter
+```
 
 ## Your ML authoring environment
 
@@ -49,14 +60,19 @@ In this folder, you will find the file _notebook.ipynb_.
 
 1. Open _notebook.ipynb_ in Visual Studio Code.
 
+```
+$ wget https://raw.githubusercontent.com/BahiaSechi/ML-For-Beginners/main/2-Regression/1-Tools/notebook.ipynb
+$ code notebook.ipynb
+```
+
    A Jupyter server will start with Python 3+ started. You will find areas of the notebook that can be `run`, pieces of code. You can run a code block, by selecting the icon that looks like a play button.
 
-1. Select the `md` icon and add a bit of markdown, and the following text **# Welcome to your notebook**.
+2. Select the `md` icon and add a bit of markdown, and the following text **# Welcome to your notebook**.
 
    Next, add some Python code.
 
-1. Type **print('hello notebook')** in the code block.
-1. Select the arrow to run the code.
+3. Type **print('hello notebook')** in the code block.
+4. Select the arrow to run the code.
 
    You should see the printed statement:
 
@@ -199,7 +215,7 @@ Congratulations, you built your first linear regression model, created a predict
 ## 🚀Challenge
 
 Plot a different variable from this dataset. Hint: edit this line: `X = X[:, np.newaxis, 2]`. Given this dataset's target, what are you able to discover about the progression of diabetes as a disease?
-## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/10/)
+## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/10/) ✅
 
 ## Review & Self Study
 
